@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/navMenu.css">
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <title>Ideia2001</title>
+</head>
+<body>
+  <div class="container">
+    <div class="nav__spacer1"></div>
+
+    <header>
+      
+          <img class="nav__logo" src="assets/img/logo.png"/>
+      
+      <div class="nav__card">
+        <nav class="nav bd-grid">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Eventos</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Usuários</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Relatórios</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+      </div>
+      <div class="nav__container__user">
+        <img class="nav__img__user" src="assets/img/user.png"/>
+        <div class="nav__user">
+          <div class="nav__name__user">
+            <h5>Igor Gonçalves</h5>
+          </div>
+          <div class="nav__name__u">
+            <u type="button" onclick="funcao1()" value="Exibir Alert" >Desconectar</u>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+
+    <div class="spacer2"></div>
+
+    <div class="nav__section"></div>
+
+    <main>
+      <div class="main__container">
+        
+            <div class="main__title">
+                <p>Olá <b>Igor Gonçalves,</b> selecione uma das opções abaixo:</p>
+            </div>
+            <div class="main__card">
+                <div type="button" onclick="funcao2()" value="Exibir Alert" class="main__card__img">
+                    <img src="assets/img/icone-eventos.png"/>
+                    <h3>Meus Eventos</h3>
+                </div>
+                <div type="button" onclick="funcao3()" value="Exibir Alert" class="main__card__img">
+                    <img src="assets/img/icone-usuarios.png"/>
+                    <h3>Usuários</h3>
+                </div>
+                <div type="button" onclick="funcao4()" value="Exibir Alert" class="main__card__img">
+                    <img src="assets/img/icone-relatorios.png"/>
+                    <h3>Relatórios</h3>
+                </div>              
+            </div>
+            
+        </div>
+      
+    </main>
+
+    
+    <footer>
+        <b class="footer__icon" >Ideia2001</b> 
+        &#169; Copyright2019 - Todos os direitos reservados
+    </footer>
+    
+  </div>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</html>
+</body>
+</html>
